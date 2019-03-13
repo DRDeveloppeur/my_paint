@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%!important;
+}
+
+#myCanvas {
+  margin-top:5%;
+  margin-left:15%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.navbars {
+  display: block;
+  margin-left: 10%;
+  width: 90%;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+.outils {
+  top: 0;
+  width: 10%;
+  height: 100%;
+  position: fixed;
+  -webkit-box-shadow: 5px 15px 20px -6px #999;
+  -moz-box-shadow: 5px 15px 20px -6px #999;
+  box-shadow: 5px 15px 20px -6px #999;
+}
+
+.outils > h1 {
+  text-align: center;
+  border-bottom: 1px solid #999;
+}
